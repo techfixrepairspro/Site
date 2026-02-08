@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechFix Pro - Electronic Repair & Cleaning Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <svg class="logo-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                    <path d="M13 2L3 14h8l-1 8 10-12h-8l1-8z" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+                <span>TechFix Pro</span>
+            </div>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#pricing" class="nav-link">Pricing</a></li>
+                <li><a href="#contact" class="nav-link contact-btn">Contact Us</a></li>
+            </ul>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="circuit-bg"></div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="glitch" data-text="Expert Electronic Repair & Cleaning">Expert Electronic Repair & Cleaning</h1>
+                <p class="hero-subtitle">Professional services for all your devices. Fast, reliable, and affordable.</p>
+                <div class="hero-buttons">
+                    <a href="#pricing" class="btn btn-primary">View Pricing</a>
+                    <a href="#services" class="btn btn-secondary">Our Services</a>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="floating-component cpu">
+                    <div class="chip-pins"></div>
+                    <div class="chip-label">CPU</div>
+                </div>
+                <div class="floating-component gpu">
+                    <div class="gpu-fans"></div>
+                    <div class="chip-label">GPU</div>
+                </div>
+                <div class="floating-component ram">
+                    <div class="ram-chips"></div>
+                    <div class="chip-label">RAM</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <h2 class="section-title">Our Services</h2>
+            <p class="section-subtitle">Comprehensive solutions for all your electronic needs</p>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <rect x="2" y="3" width="20" height="14" rx="2" stroke-width="2"/>
+                            <line x1="8" y1="21" x2="16" y2="21" stroke-width="2" stroke-linecap="round"/>
+                            <line x1="12" y1="17" x2="12" y2="21" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Computer Repair</h3>
+                    <p>Desktop and laptop repairs, hardware upgrades, software troubleshooting, and virus removal.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <rect x="5" y="2" width="14" height="20" rx="2" stroke-width="2"/>
+                            <line x1="12" y1="18" x2="12" y2="18" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Mobile Device Repair</h3>
+                    <p>Screen replacements, battery changes, charging port fixes, and water damage recovery.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z" stroke-width="2"/>
+                            <polyline points="3.27 6.96 12 12.01 20.73 6.96" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <line x1="12" y1="22.08" x2="12" y2="12" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Gaming Console Repair</h3>
+                    <p>PlayStation, Xbox, and Nintendo repairs including HDMI ports, disc drives, and overheating issues.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <circle cx="12" cy="12" r="10" stroke-width="2"/>
+                            <path d="M8 14s1.5 2 4 2 4-2 4-2" stroke-width="2" stroke-linecap="round"/>
+                            <line x1="9" y1="9" x2="9.01" y2="9" stroke-width="2" stroke-linecap="round"/>
+                            <line x1="15" y1="9" x2="15.01" y2="9" stroke-width="2" stroke-linecap="round"/>
+                        </svg>
+                    </div>
+                    <h3>Deep Cleaning</h3>
+                    <p>Professional cleaning for computers, laptops, and electronics to remove dust and improve performance.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M20 7h-9" stroke-width="2" stroke-linecap="round"/>
+                            <path d="M14 17H5" stroke-width="2" stroke-linecap="round"/>
+                            <circle cx="17" cy="17" r="3" stroke-width="2"/>
+                            <circle cx="7" cy="7" r="3" stroke-width="2"/>
+                        </svg>
+                    </div>
+                    <h3>Component Upgrade</h3>
+                    <p>RAM upgrades, SSD installations, graphics card replacements, and system optimization.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor">
+                            <path d="M21 12a9 9 0 1 1-6.219-8.56" stroke-width="2" stroke-linecap="round"/>
+                            <polyline points="22 4 12 14.01 9 11.01" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <h3>Diagnostics</h3>
+                    <p>Comprehensive testing and diagnostics to identify issues with your devices quickly and accurately.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About TechFix Pro</h2>
+                    <p>With over 10 years of experience in electronic repair and maintenance, TechFix Pro has become the trusted choice for individuals and businesses seeking reliable, affordable repair services.</p>
+                    <p>Our team of certified technicians specializes in diagnosing and repairing a wide range of electronic devices. We use only high-quality replacement parts and industry-standard tools to ensure every repair meets our exacting standards.</p>
+                    <div class="about-features">
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <span>Certified Technicians</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <span>Quality Parts</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <span>90-Day Warranty</span>
+                        </div>
+                        <div class="feature">
+                            <span class="feature-icon">✓</span>
+                            <span>Same-Day Service</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="motherboard">
+                        <div class="mb-socket"></div>
+                        <div class="mb-chip mb-chip-1"></div>
+                        <div class="mb-chip mb-chip-2"></div>
+                        <div class="mb-chip mb-chip-3"></div>
+                        <div class="mb-traces"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="pricing">
+        <div class="container">
+            <h2 class="section-title">Affordable Pricing</h2>
+            <p class="section-subtitle">Transparent, competitive rates with no hidden fees</p>
+            <div class="pricing-grid">
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Diagnostics</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">19</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Complete system diagnosis</li>
+                        <li>Problem identification</li>
+                        <li>Repair estimate</li>
+                        <li>30-minute turnaround</li>
+                    </ul>
+                    <p class="pricing-note">Free if you proceed with repair</p>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Screen Repair</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">79</span>
+                            <span class="period">+</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Phone: Starting at $79</li>
+                        <li>Tablet: Starting at $99</li>
+                        <li>Laptop: Starting at $129</li>
+                        <li>Same-day service available</li>
+                    </ul>
+                    <p class="pricing-note">OEM quality parts</p>
+                </div>
+
+                <div class="pricing-card featured">
+                    <div class="featured-badge">Most Popular</div>
+                    <div class="pricing-header">
+                        <h3>Deep Cleaning</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">45</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Complete disassembly</li>
+                        <li>Dust & debris removal</li>
+                        <li>Thermal paste replacement</li>
+                        <li>Performance testing</li>
+                    </ul>
+                    <p class="pricing-note">Laptops & Desktops</p>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Battery Replacement</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">49</span>
+                            <span class="period">+</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>Phone: Starting at $49</li>
+                        <li>Tablet: Starting at $69</li>
+                        <li>Laptop: Starting at $89</li>
+                        <li>High-capacity batteries</li>
+                    </ul>
+                    <p class="pricing-note">1-hour service</p>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Software Services</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">59</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>OS installation</li>
+                        <li>Virus removal</li>
+                        <li>Data recovery</li>
+                        <li>Software troubleshooting</li>
+                    </ul>
+                    <p class="pricing-note">Remote options available</p>
+                </div>
+
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Hardware Upgrade</h3>
+                        <div class="price">
+                            <span class="currency">$</span>
+                            <span class="amount">39</span>
+                            <span class="period">+</span>
+                        </div>
+                    </div>
+                    <ul class="pricing-features">
+                        <li>RAM installation: $39</li>
+                        <li>SSD upgrade: $49</li>
+                        <li>Component replacement</li>
+                        <li>Performance optimization</li>
+                    </ul>
+                    <p class="pricing-note">Parts priced separately</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p class="section-subtitle">Ready to fix your device? Contact us today!</p>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <div class="info-icon">📍</div>
+                        <div>
+                            <h4>Location</h4>
+                            <p>123 Tech Street, Digital City, DC 12345</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">📞</div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p>(555) 123-4567</p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">✉️</div>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1764626767786563576372747f717e6f6765783974787a">[email&#160;protected]</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <div class="info-icon">🕐</div>
+                        <div>
+                            <h4>Hours</h4>
+                            <p>Mon-Fri: 9AM-7PM<br>Sat: 10AM-5PM<br>Sun: Closed</p>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="tel" placeholder="Phone Number">
+                    <select>
+                        <option>Select Service</option>
+                        <option>Computer Repair</option>
+                        <option>Mobile Device Repair</option>
+                        <option>Gaming Console Repair</option>
+                        <option>Deep Cleaning</option>
+                        <option>Component Upgrade</option>
+                        <option>Diagnostics</option>
+                    </select>
+                    <textarea placeholder="Describe the issue..." rows="4"></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>TechFix Pro</h4>
+                    <p>Your trusted partner for electronic repair and cleaning services.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li>Computer Repair</li>
+                        <li>Mobile Repair</li>
+                        <li>Console Repair</li>
+                        <li>Deep Cleaning</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 TechFix Pro. All
