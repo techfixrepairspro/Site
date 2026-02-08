@@ -95,30 +95,6 @@ window.addEventListener('scroll', () => {
     });
 });
 
-// Form Submission Handler
-const contactForm = document.querySelector('.contact-form');
-if (contactForm) {
-    contactForm.addEventListener('submit', (e) => {
-        e.preventDefault();
-        
-        // Get form data
-        const formData = new FormData(contactForm);
-        
-        // Show success message
-        alert('Thank you for your message! We will get back to you within 24 hours.');
-        
-        // Reset form
-        contactForm.reset();
-        
-        // In a real application, you would send this data to a server
-        // Example:
-        // fetch('/api/contact', {
-        //     method: 'POST',
-        //     body: formData
-        // });
-    });
-}
-
 // Add hover effect sound (optional - commented out)
 // Uncomment if you want to add sound effects
 /*
@@ -276,4 +252,4 @@ addGlowingDots();
 // Console Easter Egg
 console.log('%c🔧 TechFix Pro', 'color: #00ff88; font-size: 24px; font-weight: bold;');
 console.log('%cLooking for a job? Check our careers page!', 'color: #0088ff; font-size: 14px;');
-console.log('%cOr contact us at: careers@techfixpro.com', 'color: #a0aec0; font-size: 12px;');
+console.log('%cOr contact us at: techfixrepairspro@gmail.com', 'color: #a0aec0; font-size: 12px;');

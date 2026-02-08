@@ -302,11 +302,11 @@
                         </div>
                     </div>
                 </div>
-                <form class="contact-form">
-                    <input type="text" placeholder="Your Name" required>
-                    <input type="email" placeholder="Your Email" required>
-                    <input type="tel" placeholder="Phone Number">
-                    <select>
+                <form class="contact-form" action="https://formspree.io/f/techfixrepairspro@gmail.com" method="POST">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <input type="tel" name="phone" placeholder="Phone Number">
+                    <select name="service">
                         <option>Select Service</option>
                         <option>Computer Repair</option>
                         <option>Mobile Device Repair</option>
@@ -315,7 +315,7 @@
                         <option>Component Upgrade</option>
                         <option>Diagnostics</option>
                     </select>
-                    <textarea placeholder="Describe the issue..." rows="4"></textarea>
+                    <textarea name="message" placeholder="Describe the issue..." rows="4" required></textarea>
                     <button type="submit" class="btn btn-primary">Send Message</button>
                 </form>
             </div>
